@@ -1,0 +1,17 @@
+import turtle
+
+
+spiral = turtle.Turtle()
+window = turtle.Screen()
+for i in range(20):
+    
+  spiral.forward(i * 10)
+  spiral.rt(144)
+   
+    #turtle.done()
+  angie = turtle.Turtle()
+  angie.shape('arrow')
+    
+  angie.color('green')
+  angie.circle(100)
+  window.exitonclick()
